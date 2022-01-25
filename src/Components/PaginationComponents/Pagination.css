@@ -1,0 +1,27 @@
+.styledPaginationContainer {
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-left: 0;
+}
+
+.styledPaginationContainer-item {
+    list-style-type: none;
+
+    padding: 4px 10px;
+
+    transition: .2s all;
+}
+
+.styledPaginationContainer-item a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.styledPaginationContainer-item:hover {
+    border-radius: 24px;
+
+    background-color: #e7e7e7;
+}
