@@ -25,9 +25,9 @@ export default function App() {
   ];
   let activities = [];
 
-  // activityData.map(element => {
-  //   localStorage.setItem(element.id, JSON.stringify(element))
-  // });
+  activityData.map(element => {
+    localStorage.setItem(element.id, JSON.stringify(element))
+  });
 
 
   for (let i = 1; i <= localStorage.length; i++) {
